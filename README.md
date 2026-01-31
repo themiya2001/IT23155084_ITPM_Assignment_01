@@ -1,4 +1,6 @@
-# ITPM Assignment 1 – End-to-End Testing using Playwright
+# IT23155084_ITPM_Assignment_1
+
+ # ITPM Assignment 1 – End-to-End Testing using Playwright
 
 ## Module
 IT3040 – Information Technology Project Management (ITPM)
@@ -18,7 +20,7 @@ Backend APIs, performance, and security testing are intentionally excluded as pe
 ---
 
 ## Testing Approach
-All test cases are implemented as **end-to-end (E2E) tests** using Playwright.
+All test cases are implemented as *end-to-end (E2E) tests* using Playwright.
 
 The tests simulate real user behavior by:
 - Entering Singlish text into the input field
@@ -50,7 +52,7 @@ itpm-assignment-1/
 ---
 
 ## Prerequisites
-- Node.js (version 18 or above)
+- Node.js (version v22.13.1 or above)
 - npm (comes with Node.js)
 
 ---
@@ -65,11 +67,20 @@ npm install
 
 ## Running the Tests
 
-To execute all end-to-end test cases:
+npm init playwright@latest
+
+->typescript
+->...
+
 
 npx playwright test
 
+npx playwright test --headed 
 
-To view the HTML test report:
+npx playwright test --project=chromium
 
-npx playwright show-report#
+npx playwright show-report
+
+npx playwright test --ui
+
+#
