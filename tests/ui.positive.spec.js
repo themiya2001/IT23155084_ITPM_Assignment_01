@@ -18,8 +18,8 @@ test('Pos_UI_0001 — Real-time output then Clear resets input', async ({ page }
 
   const input = await getSinglishInput(page);
 
-  const singlish = 'mama oyath ekka  gedhara yanna enna hithan innavaa.';
-  const expectedTokens = ['මම', 'ඔයත්', 'එක්ක', 'ගෙදර', 'යන්න', 'හිතන්'];
+  const singlish = 'mama oyath ekka  gedhara yanna hithan innavaa.';
+  const expectedTokens = ['මම', 'ඔයත්', 'එක්ක', 'ගෙදර', 'හිතන්', 'ඉන්නවා'];
 
 
   // Type Singlish (simulate real typing)
